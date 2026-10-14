@@ -10,7 +10,6 @@ public class InvoiceData {
         this.customer = customer;
         this.lines= new ArrayList<>();
     }
-    public record InvoiceLine(String item, double price) {};
 
     public String getCustomer() {
         return customer;
