@@ -3,7 +3,6 @@ package problem5.before;
 public class EnrollmentService {
     private final CsvStudentStore store=
             new CsvStudentStore("students.csv");
-
     private final EmailSender sender=
             new EmailSender("smtp.example.com");
 
